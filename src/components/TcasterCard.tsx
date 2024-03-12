@@ -1,13 +1,12 @@
-import React from 'react'
 import { CircleWithNumber } from './CircleWithNumber'
 import { FixScoreButton } from './FixScoreButton'
 
 type TcasterCardProps = {
-    logo: string
-    faculty: string
-    university: string
-    name: string
-    roundSeats: number[]
+    logo?: string
+    faculty?: string
+    university?: string
+    name?: string
+    roundSeats?: number[]
 }
 
 export function TcasterCard(props: TcasterCardProps) {
@@ -32,7 +31,7 @@ export function TcasterCard(props: TcasterCardProps) {
         <div className='flex gap-5 font-Prompt font-light text-[#5f5f5f] text-xl'>
             รอบที่เปิด
             <div className='flex gap-2'>
-                {roundSeats.map((item, index) => {
+                {roundSeats?.map((item, index) => {
                     return <CircleWithNumber key={index} id={index + 1} disabled={item === -1} />
                 })}
             </div>
