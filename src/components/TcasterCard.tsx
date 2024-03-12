@@ -19,7 +19,10 @@ export function TcasterCard(props: TcasterCardProps) {
                     <div className='flex flex-col gap-2 font-prompt w-full'>
                         <div className="flex justify-between w-full">
                         <p className='text-[#ff5a5a] font-semibold text-2xl'>{faculty}</p>
+                            <button>
+
                             <img src="/heart.svg" alt="" />
+                            </button>
                         </div>
                         <p className='font-medium text-[#9b9b9b] text-xl'>{name}</p>
                         
