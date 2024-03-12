@@ -1,9 +1,9 @@
-
+import { TcasterCard } from "./components/TcasterCard";
 
 export function App() {
   return (
-    <div className='flex w-10 h-10 text-green-600'>
-      hello world
+    <div className='flex w-screen h-screen justify-center items-center'>
+      <TcasterCard />
     </div>
   )
 }
