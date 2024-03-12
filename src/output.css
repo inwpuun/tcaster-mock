@@ -602,6 +602,10 @@ video {
   height: 100vh;
 }
 
+.h-\[86px\]{
+  height: 86px;
+}
+
 .w-0{
   width: 0px;
 }
@@ -632,6 +636,10 @@ video {
 
 .w-screen{
   width: 100vw;
+}
+
+.w-\[80px\]{
+  width: 80px;
 }
 
 .flex-col{
